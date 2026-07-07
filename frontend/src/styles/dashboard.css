@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    background: #0f172a;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dashboard-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.dashboard-card {
+    width: 900px;
+    background: #111827;
+    border-radius: 15px;
+    padding: 30px;
+    color: white;
+    box-shadow: 0 10px 30px rgba(0,0,0,.4);
+}
+
+.dashboard-header{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.dashboard-header h1{
+    margin:0;
+    font-size:30px;
+}
+
+.dashboard-header p{
+    color:#9ca3af;
+}
