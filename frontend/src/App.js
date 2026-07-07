@@ -4,14 +4,12 @@ import { ethers } from "ethers";
 import { QRCodeCanvas } from "qrcode.react";
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
-import DashboardPage from "./pages/DashboardPage";
-import AdminPage from "./pages/AdminPage";
 import Login from "./Login";
 function App() {
   const [account, setAccount] = useState("");
   const [credentialId, setCredentialId] = useState("");
   const [credentialHash, setCredentialHash] = useState("");
-  const [result, setResult] = useState("");
+  const [, setResult] = useState("");
   const [status, setStatus] = useState("");
   const [lastIssuedId, setLastIssuedId] = useState("");
   const [history, setHistory] = useState([]);
